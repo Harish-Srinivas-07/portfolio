@@ -154,7 +154,22 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+// add event to form submit
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
 
+  const name = form.querySelector("input[name='fullname']").value.trim();
+  const email = form.querySelector("input[name='email']").value.trim();
+  const message = form.querySelector("textarea[name='message']").value.trim();
+
+  const mailToLink = `mailto:sr.harishsrinivas@gmail.com?subject=Message from ${encodeURIComponent(
+    name
+  )}&body=${encodeURIComponent(
+    message + "\n\nFrom: " + name + " (" + email + ")"
+  )}`;
+
+  window.location.href = mailToLink;
+});
 
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");

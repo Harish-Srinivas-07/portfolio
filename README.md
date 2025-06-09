@@ -4,4 +4,4 @@ Welcome to my personal portfolio website! This site showcases my projects, skill
 
 ## 🌐 Live Website
 
-🔗 [srharishsrinivas.netlify.app](https://srharishsrinivas.netlify.app)
+🔗 [harishsrinivas.netlify.app](https://harishsrinivas.netlify.app)
