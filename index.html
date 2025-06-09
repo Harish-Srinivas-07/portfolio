@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harish Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Harish Srinivas SR"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Harish Srinivas SR">Harish Srinivas SR</h1>
+
+            <p class="title">Software developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto: sr.harishsrinivas@gmail.com"
+                  class="contact-link"
+                >
+                  sr.harishsrinivas@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+918939195387" class="contact-link"
+                  >+91 8939195387</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2002-12-07">Dec 7, 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Chennai</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://github.com/Harish-Srinivas-07"
+                class="social-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://linkedin.com/in/harishsrinivas-sr"
+                class="social-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://instagram.com/being_exception"
+                class="social-link"
+                target="_blank"
+                rel="noopener"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Blog</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Driven software developer with hands-on experience in Flutter,
+              Supabase, and full-stack development, seeking a challenging role
+              in a forward-thinking team. Eager to apply my skills in building
+              scalable, real-time applications and contribute to impactful
+              product development while continuing to grow as a full-stack
+              engineer.
+            </p>
+
+            <p>
+              I create scalable, intuitive apps and websites that bring ideas to
+              life with creativity and precision. My focus is on delivering
+              seamless user experiences that engage audiences and elevate
+              brands. Passionate about turning complex problems into elegant,
+              impactful solutions.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I'm Doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACNklEQVR4nO1ZS27UQBB90pATEEFWwCHCZ0OUwAIIF0BcIpdALEFI5HMCFnMJFiNXeaRZDEoOMARFIBRF4SOhSBEvsrvleD424xm3PQ79pFaP3DVV9bqr7epqwMPDozDYwzIFOxR8oeKcCs7Yzik4pGKPAW6jCjDEBgXf5nA6q/1kiEdVzLwL52nbdwa44Y6AYjdl7HO8Gm20Jsqa8DKygsOJMm20GGCNikFKdtsdAROvxlCIjVxZxbNY3rSnubIBHqcmZlC64ymnLjdsxszPpLeNVnpjl6V33FAqXpukO4EnkAP6FfhPQujIGjlqJoEuVil4F/WNJOASrJsABR0KlD0sZcr0sBTLCDr1hFCAJ1R8iPqxMcGBdWAr8/+KLZvvHNRDQHBsHTgeGwvx3I6dsou3FPQp+G1bn4o3FJxYJzfrIaD5Rqyjk1NlSX7vz6K7FOQZoeAlBX//mfMbmRdFdJeGLCPsYoWKXwUOLpHszWl0V0NA8ToZC3CXivtjTo8+F7xaHAKCTynH7jHEgwmhM/xc0F8cAsXCJwkjLAyB9Pl32jZyTmbNK2DOvwWcHz0ns+7XqMuPZDMIBNlpytXJGOeFJ5ADmo/hn6hHQzfxmd3EZ2XrroaANv01qp5AjcXdj7hWTXF3uLz+sDS9ivWqyuvDFxxRXX+OlaApq69Xd8GhuBPfZRVPnadN8k7ZwS1nBGIS0awLvjpw/kek26nzCYkurlPwPg6jea9ZFYMobJzPvIfHFcUFMqEc1wyJfF8AAAAASUVORK5CYII="
+                    alt="android"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile App Development</h4>
+                  <p class="service-item-text">
+                    Building cross-platform mobile apps using Flutter & Supabase
+                    with real-time data, push notifications, and modern UI/UX.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACsUlEQVR4nO1ZPWsUURQ9kjSKlUoKBbVMLVooKEYLQS0UxMLU6cT/EEQ7I4JR/4AKqSSFnWyRfffu4tapIq5KUCSFrkGJLjkys5PNnezsrrPDfETmwOPB+zzn7X333nkLlChRokShwQYOUfCEgk9UtKlgyqVNwUcqntHhWDLyNUxR8CUD0uxTWqzhQpKTz5M8g/KVDhPxBSiemkU++L/GAsZGOo04+y5gjA7nqGh29xfMx1+oY4edBWqYSoXtANDhojnAZvwF7IXN4OQjfwlzsREX1g6RE5iEw/8gYDWYvJoKu9QF1HGSgkdenYiEYJqKH1Qsxr1LLIAVeAKWu0QcJneVANZxkILNwJf/pmBvlnfgPhW/vLrvGGIPFXP9xtHhqglGGrH2nLdGOgIEG8HGGwM2mDUE1yP675n+B2btdUNuNh0BQyZTMRPKWSLCPQUVE81vmPb5HfnOTKYCWMMVKv4Y8q9ZwXhoTAXjgffZGnMkFGUFr2ykpeB6JgLocCpkAoK3rGB/pBveHvO+p7+BfVSI2ecnHc6kL0CxYvpW+qW6VNwx455HjnGYCK0neFccAYKXhtjt4gio+xHamlAj0oS8b4jtMSciTUigIROq4nTqAv7lErOKw9a99lzwqEvscC0Oh0QChrlRCm6a9jc9c/N2o8MCGRUPTfvd7oQiBbJBqQQVdTP/8lZ77FRCsBYcwhriYlT1XsJm0pBNCg7E3jwAHS5R8cKrkZkAh0ljPsvICxxVQOdjfNFPIwTTiTgIblFR9er4k/P+mIDPoRVwaO1WAUzVCxVdQDvXh62Kn453I3XSp8WzqbAcACrOJ31aDD/uem+VWT3uqk8+4eOu4rjxAvkVwTcu4ehop+GduuBzjuS/exxGIr/jbedxkN9n8xeToulnrKOefIkSJUogK/wFkwYG0Bji7/UAAAAASUVORK5CYII="
+                    alt="placeholder-thumbnail-xml"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Full Stack Development</h4>
+                  <p class="service-item-text">
+                    End-to-end web development with React, Node.js, Express, and
+                    PostgreSQL. REST APIs and scalable app architecture.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADxklEQVR4nO2ZSWsUQRTH/1nUi6CJ4IZo9COoX8IFFVTiXSUJKnpRLyoGRLyJejAKBkXxkLPoQXSUOFU9GtFDiAEPIriMO5rgAmP+Uj2dTE1PdU9VdycEnAcFSbr7vd+rt9QSoCENacj/IxRYS4H7FPhOgREKdJFoSqUzj8UUOEWJZ5T4QYmfFHhOiV4WsDQ7eIkNlPhNCVYNgX4SzQl1bqfEWI3OyvhGDzuygN9CgT+Rhjw8INHipFOgmwITMfCTo5TKCQP8S0p00EN/yNBD20gY4EeZxzbmMN8f6meJF9rzr5RYkj5tBF4p+ODZ+STpZIAvMIeFNe8Nos13rKL7RGbwAci4MeQxThjhh7Agxtmd2rvCtdtUp42HFSEHT1Pilx+JcDoZasIVXgmHsEybmCJsxW+VMfA17xPNcTWRBF4JB7FSc+AdbMXv85XZXG31jcQFQ0pdoURPFDxVmgpIP5qGtKPAHs2Bey4OjLj2+ZiaYNTMU+BJlbOaHQq0U+K19vygiwNdNTNZr7vE1UR5PFVQITtnTHaUkxTwtL9/sEm5imKiKQi/kxOaMypt9Ci8NQGwbOdiyM4Neiho3/5lHput4TXlzUmcMBTsGz7Cckc7DOAnVDY4w8fOUFyfl9jrz1hM2kQ64eF6DXwe+xLDx86QwOWs4JX4Oe9V5Twzga8T5o5IeIEhJ3ihwWc180YnBC4FRkZ4G/Mi4QfRNqvgdVGrMocxNxP4fFW3mX74KoC08GpRk9piJ7B/+qknAbJMGzm1WluvM+ngw31ewViukhzCnGDvY9pmMMnJzg0+vDFzgJ/apus5L9FDib6oXeysgvd1DGNucKsxToHdaU52M5bzdXUL95OdmwEPm0LwLjmvus1NStzlY6yJ3cUKnItIp5a0e6HRFPCVVilx1tJeX2Y1QQ/rNPjPKfr8BD1stfpWZlgTlDiuKbo6E9sDRtWExNEkDghNQWdS+OCW4xYlTiY+2QmMM4dWe/jyxVIpUFBiAYuSwAdQdxKd7HJopcRHbYu9yt4BiV2a0XxS+EBXr/PJjjVb+DEOOHQklfPax8fqRKq6YAW6U53saHz/sD28UiBQnPq4gPVVz8tXHipC1/zuFAPv6gQdnbVpn0UVOuWEikRQ2KWIA7gR3haOWcD7igQOaEq++Pcy5tY2OdRit9FKdxTkAFoygTc4YBoqAnk/Iipajv9mirgo+ORa6HEOtFPgfchAMSjsTtsDu7MTMgP4kBOH/JFglh0uCo5oq++Y//tMnMyyFKr8V1fpLittQxrSECj5B+59iDpiiXbRAAAAAElFTkSuQmCC"
+                    alt="design"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI/UX & Prototyping</h4>
+                  <p class="service-item-text">
+                    Designing intuitive interfaces and flows using Figma. Rapid
+                    prototyping with Tailwind CSS for responsive web apps.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD0UlEQVR4nO1YT6gVZRT/mZqiJSQ8cSUkVNqfhRtFQU15GS1eQqvKjYRrg0SlRBDT3Jj2QFEQF4WgSGgmCLnwhe/NOfPigqLPFvl/Ybnw39O0TPEX38w478y8O9e515nrFe6BWczHd875nTPnO7/zDdCWtrSlLWmhYCYFXezFK3jehIpdVDB4BPcpOETFx6xgHJ6LzGsEfvhzh4IlaGWh4gOT/UdVgjiBVhYKJgZlMxTAe1SsoeIUFf9SsTyxX/ERFb9S8B0Vs9AKQsXPJuNrau4V/Jn6Quco2MB+vNU8xGlQHj4xZTRQc6/ghxpn5hQFX9LHq81D70CdxHgK/jZBvJO5lxhBQScVu6m4WTWQsBTFlR+Po6M5QQj2GhDfmPWvKbhGxToHHlbnCMbQx2IK9lFwN7OT+VhUfgCKD00GLzwGS8F/Zr07HUSs34OXXMul4nDcFIb0fi8/gAG8SMWN2GkfZg8juRDMtswgXHl5mEfBjymdW6UHMAysoDtY68GoVHmRih02CNeBXNlRcSnjTHQXC7Qfk6n4PPrcF6P6vUfBoHH6F/djZLB/P0ZSsScFbDcVKxzRZXYlwXkqVrOC0cWRlmJnRFBZrdAC6Ix1XRC1WygjnWsUbKeHOVml1hh4xbtUXMkF3GQ5YYN4gYrvq+y7F3WirsKyXaXDJLMuOEoPn1HxWsADFYxjP16n4guz76ZrlSlbK4yNP6hYSh8TCgcdO/Qwg4p/Ek49zHkCUZ2P9/tYnArghAlwaWnAA2c9GEvFWQO+l314+Yl6io1GZ1+q2zAumzIzX/Vz53RID28bvbuOpIJ1waZqgZUDPuwaV00pzK1LX3HagP00OsCXzVpXeejDbHUaZ8ca0P/KlIvji/nm/bpj7uJB92IKFWsd4GgAexzAsrpt/Yap8Q0tvCcPjQeC7WWUy/pMgurDGw3ZFWhVe152F6vfSTir/JRBRA8c8TRsOxw30jbPFcuwgs0pBweCej2J8U9t28OkYJ5PEuCqYpCHDqZR8dAYX1mY8SEf77t53o3EwX2gUn1UCBjZ/Qyohxuo2Gozj2ck7MNsg2NLfkXBGZP9+aWirIXDx1yD40x+RVufEVs+C+FxdFjmzq+ouN0SAfiYYAIYzK8oGGiRElpgzsDp/IqKLUbxYKko8/7ZE2zOr+jjzVQbLa5H58WgWJ0gTg/T6jPgenOSaA4Fn7TEM0H3D8jHwtQ/1fpaaGysgtHB9bC+u27xj+CXhu/DURDdiXJq3vMgOItFXOaDMyH4NrqMJGeYYp87gY9wDpv+1MDb0pa2tAXNlP8BEeSwWR19iSMAAAAASUVORK5CYII="
+                    alt="cloud-mail"
+                    width="40"
+                  />
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Cloud & Dev Tools</h4>
+                  <p class="service-item-text">
+                    Working with Supabase, Firebase, Git, Play Console, and
+                    Postman to deliver, deploy, and debug apps efficiently.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Projects</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://raw.githubusercontent.com/Harish-Srinivas-07/hr_attendance/refs/heads/master/assets/logo.png"
+                      alt="HR Attendance App"
+                      width="45"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    HR Attendance App
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      A modern Flutter-based attendance management system
+                      tailored for HR workflows. It features real-time
+                      attendance tracking, employee management, and detailed
+                      reporting. The app integrates with Supabase for secure
+                      data storage and authentication, ensuring a seamless user
+                      experience.
+                    </p>
+                    <p>
+                      A modern Flutter-based attendance management system
+                      tailored for HR workflows. This app ensures secure
+                      check-ins, real-time attendance tracking, and streamlined
+                      leave/approval processes — all wrapped in a clean UI with
+                      tamper detection safeguards (location spoof, root/emulator
+                      detection).
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://img.icons8.com/emoji/48/bus-emoji.png"
+                      alt="SAEC Spotbus Application"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    SAEC Spotbus Application
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      SAEC Spotbus, a Flutter app, enhances transportation at
+                      S.A Engineering College. Utilizing Google Maps API and
+                      Firebase, it offers real-time tracking, route info, and
+                      notifications. With user separation and security measures,
+                      it ensures smooth communication between students and
+                      drivers, revolutionizing campus commuting.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://play-lh.googleusercontent.com/guFk0vz99AcEIGxIlQDd86-uYvs_NzdjJv5ygAH5FJ7ltsVl41SmD_lEJSVFMZE-ig=w480-h960-rw"
+                      alt="MIA Application"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    MIA Application"
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      As a core member of the MIA team, fully developed the
+                      mobile version of the cross-platform industrial monitoring
+                      app using Flutter & Supabase, delivering real-time data
+                      tracking, interactive graphs, reporting, and push
+                      notifications, and deployed it to the Play Store following
+                      comprehensive security audits.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://img.icons8.com/matisse/100/trainers.png"
+                      alt=""
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Nike Replicate Website
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      A responsive Nike product landing page built with React,
+                      Vite, and Tailwind CSS, replicating Nike's clean design
+                      and brand aesthetic. Features smooth animations, modern
+                      layout, and mobile optimization.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://img.icons8.com/3d-fluency/94/spotify.png"
+                      alt="PrimeStream & PrimeMusic"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    PrimeStream & PrimeMusic
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      - PrimeStream : A dynamic web app featuring Azure AD B2C
+                      authentication, GitHub-sourced movie data, and a
+                      responsive design for seamless movie streaming. -
+                      PrimeMusic : A web platform powered by the Saavn API,
+                      delivering high-quality music streaming with a
+                      Spotify-inspired design and advanced playback features.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://img.icons8.com/stickers/100/graduation-cap.png"
+                      alt="Internshala LandingPage"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Internshala LandingPage
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      - PrimeStream : A dynamic web app featuring Azure AD B2C
+                      authentication, GitHub-sourced movie data, and a
+                      responsive design for seamless movie streaming. -
+                      PrimeMusic : A web platform powered by the Saavn API,
+                      delivering high-quality music streaming with a
+                      Spotify-inspired design and advanced playback features.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="https://i.ibb.co/DD5TQ0tk/unnamed.jpg"
+                      alt="Foody Mart"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Foody Mart
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Welcome to the delicious world of our Food Website! 🥳
+                      Here, you'll find a delightful collection of mouthwatering
+                      dishes and culinary creations. Whether you're a foodie or
+                      simply looking for some culinary inspiration, you've come
+                      to the right place! Let's dive into how you can get
+                      started and make the most of our website. Bon appétit! 🍽️
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+        
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Technologies Known</h3>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <img
+                  src="https://i.ibb.co/Kjf8mc6Z/supabase.png"
+                  alt="Supabase"
+                  class="tech-logo"
+                  onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/supabase/supabase/master/docs/static/supabase-icon.svg';"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/flutter.svg"
+                  alt="Flutter"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png"
+                  alt="Firebase"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/postgresql.svg"
+                  alt="PostgreSQL"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://i.ibb.co/B5HLynXv/sql.png"
+                  alt="SQL"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+                  alt="React"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                  alt="Node.js"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                  alt="Express"
+                  class="tech-logo"
+                  style="filter: brightness(0) invert(1)"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+                  alt="Tailwind CSS"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/postman.svg"
+                  alt="Postman"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+                  alt="Git"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+                  alt="Figma"
+                  class="tech-logo"
+                />
+              </li>
+              <li class="clients-item">
+                <img
+                  src="https://i.ibb.co/Y4bSYtCH/plsy.png"
+                  alt="Play Console"
+                  class="tech-logo"
+                />
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  S.A Engineering College, Poonamallee — B.E CSE
+                </h4>
+                <span>2021 — 2024</span>
+                <p class="timeline-text">CGPA: 9.25</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  New Century Mat Hr Sec School, Chennai — HSC
+                </h4>
+                <span>2019 — 2020</span>
+                <p class="timeline-text">State Board, Scored: 74.4%</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  New Century Mat Hr Sec School, Chennai — SSLC
+                </h4>
+                <span>2017 — 2018</span>
+                <p class="timeline-text">State Board, Scored: 94.4%</p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineer — Sun Teknolozy
+                </h4>
+                <span>2024 — Present</span>
+                <p class="timeline-text">
+                  Core member of the MIA team: built and deployed the mobile
+                  version of a cross-platform industrial monitoring app using
+                  Flutter & Supabase. Delivered real-time data tracking,
+                  interactive graphs, reporting, and push notifications with
+                  strong security audits, and published to the Play Store.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+
+            <!-- Technologies -->
+            <h4 class="h4">Technologies</h4>
+            <div class="skills-grid">
+              <div class="content-card skill-card">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/flutter.svg"
+                  alt="Flutter logo"
+                  class="skill-icon"
+                />
+                <h5>Flutter</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/react-2.svg"
+                  alt="React logo"
+                  class="skill-icon"
+                />
+                <h5>React</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg"
+                  alt="Node.js logo"
+                  class="skill-icon"
+                />
+                <h5>Node.js</h5>
+              </div>
+              <div class="content-card skill-card">
+                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express logo" class="skill-icon" /> -->
+                <img
+                  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                  alt="Express logo"
+                  class="skill-icon"
+                  style="filter: brightness(0) invert(1)"
+                />
+                <h5>Express</h5>
+              </div>
+            </div>
+
+            <!-- Frameworks & Tools -->
+            <h4 class="h4">Frameworks & Tools</h4>
+            <div class="skills-grid">
+              <div class="content-card skill-card">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg"
+                  alt="Tailwind CSS logo"
+                  class="skill-icon"
+                />
+                <h5>Tailwind CSS</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png"
+                  alt="Firebase logo"
+                  class="skill-icon"
+                />
+                <h5>Firebase</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+                  alt="Figma logo"
+                  class="skill-icon"
+                />
+                <h5>Figma</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/git-icon.svg"
+                  alt="Git logo"
+                  class="skill-icon"
+                />
+                <h5>Git</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/postman.svg"
+                  alt="Postman logo"
+                  class="skill-icon"
+                />
+
+                <h5>Postman</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://i.ibb.co/Y4bSYtCH/plsy.png"
+                  alt="Play Console logo"
+                  class="skill-icon"
+                />
+                <h5>Play Console</h5>
+              </div>
+            </div>
+
+            <!-- Databases -->
+            <h4 class="h4">Databases</h4>
+            <div class="skills-grid">
+              <div class="content-card skill-card">
+                <img
+                  src="https://i.ibb.co/B5HLynXv/sql.png"
+                  alt="SQL logo"
+                  class="skill-icon"
+                />
+                <h5>SQL</h5>
+              </div>
+              <div class="content-card skill-card">
+                <img
+                  src="https://cdn.worldvectorlogo.com/logos/postgresql.svg"
+                  alt="PostgreSQL logo"
+                  class="skill-icon"
+                />
+                <h5>PostgreSQL</h5>
+              </div>
+
+              <div class="content-card skill-card">
+                <img
+                  src="https://i.ibb.co/Kjf8mc6Z/supabase.png"
+                  alt="Supabase logo"
+                  class="skill-icon"
+                  onerror="this.onerror=null;this.src='https://raw.githubusercontent.com/supabase/supabase/master/docs/static/supabase-icon.svg';"
+                />
+                <h5>Supabase</h5>
+              </div>
+            </div>
+
+            <!-- Other Technical Skills -->
+            <h4 class="h4">Other Technical Skills</h4>
+            <div class="skills-grid">
+              <div class="content-card skill-card">
+                <h5>Problem Solving</h5>
+              </div>
+              <div class="content-card skill-card">
+                <h5>DSA</h5>
+              </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <h4 class="h4">Soft Skills</h4>
+            <div class="skills-grid">
+              <div class="content-card skill-card">
+                <h5>Time Management</h5>
+              </div>
+              <div class="content-card skill-card">
+                <h5>Creative Mind</h5>
+              </div>
+              <div class="content-card skill-card">
+                <h5>Self Motivated</h5>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #BLOG
+      -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      Veritatis et quasi architecto beatae vitae dicta sunt,
+                      explicabo.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Sed ut perspiciatis, nam libero tempore, cum soluta nobis
+                      est eligendi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      Excepteur sint occaecat cupidatat no proident, quis
+                      nostrum exercitationem ullam corporis suscipit.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Enim ad minim veniam, consectetur adipiscing elit, quis
+                      nostrud exercitation ullamco laboris nisi.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-5.jpg"
+                      alt="The forgotten art of spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      The forgotten art of spacing
+                    </h3>
+
+                    <p class="blog-text">
+                      Maxime placeat, sed do eiusmod tempor incididunt ut labore
+                      et dolore magna aliqua.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Fab 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Optio cumque nihil impedit uo minus quod maxime placeat,
+                      velit esse cillum.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15544.127155921125!2d80.12443625940669!3d13.097171895290899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526237656b9a93%3A0x37587770c442f4d5!2sAyappakkam%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1749288070355!5m2!1sen!2sin"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
