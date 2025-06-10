@@ -43,24 +43,24 @@ for (let i = 0; i < testimonialsItem.length; i++) {
     modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
     modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
     const modalGitLink = modalContainer.querySelector('[data-git-link]');
-const modalDemoLink = modalContainer.querySelector('[data-demo-link]');
+    const modalDemoLink = modalContainer.querySelector('[data-demo-link]');
 
-const gitLink = this.querySelector('[data-git-link]');
-const demoLink = this.querySelector('[data-demo-link]');
+    const gitLink = this.querySelector('[data-git-link]');
+    const demoLink = this.querySelector('[data-demo-link]');
 
-if (gitLink) {
-  modalGitLink.href = gitLink.href;
-  modalGitLink.style.display = 'inline-flex';
-} else {
-  modalGitLink.style.display = 'none';
-}
+    if (gitLink) {
+      modalGitLink.href = gitLink.href;
+      modalGitLink.style.display = 'inline-flex';
+    } else {
+      modalGitLink.style.display = 'none';
+    }
 
-if (demoLink) {
-  modalDemoLink.href = demoLink.href;
-  modalDemoLink.style.display = 'inline-flex';
-} else {
-  modalDemoLink.style.display = 'none';
-}
+    if (demoLink) {
+      modalDemoLink.href = demoLink.href;
+      modalDemoLink.style.display = 'inline-flex';
+    } else {
+      modalDemoLink.style.display = 'none';
+    }
 
 
     testimonialsModalFunc();
