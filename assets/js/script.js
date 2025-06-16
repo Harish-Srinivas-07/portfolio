@@ -1,18 +1,9 @@
 "use strict";
 
-
 let hasMediumPosts = false;
 window.addEventListener("DOMContentLoaded", async () => {
   await fetchMediumFeed();
-
-  const blogNavItem = document.getElementById("blog-nav-item");
-
-  if (!hasMediumPosts && blogNavItem) {
-    blogNavItem.style.display = "none";
-  }
 });
-
-
 
 // element toggle function
 const elementToggleFunc = function (elem) {
@@ -50,28 +41,31 @@ for (let i = 0; i < testimonialsItem.length; i++) {
   testimonialsItem[i].addEventListener("click", function () {
     modalImg.src = this.querySelector("[data-testimonials-avatar]").src;
     modalImg.alt = this.querySelector("[data-testimonials-avatar]").alt;
-    modalTitle.innerHTML = this.querySelector("[data-testimonials-title]").innerHTML;
-    modalText.innerHTML = this.querySelector("[data-testimonials-text]").innerHTML;
-    const modalGitLink = modalContainer.querySelector('[data-git-link]');
-const modalDemoLink = modalContainer.querySelector('[data-demo-link]');
+    modalTitle.innerHTML = this.querySelector(
+      "[data-testimonials-title]"
+    ).innerHTML;
+    modalText.innerHTML = this.querySelector(
+      "[data-testimonials-text]"
+    ).innerHTML;
+    const modalGitLink = modalContainer.querySelector("[data-git-link]");
+    const modalDemoLink = modalContainer.querySelector("[data-demo-link]");
 
-const gitLink = this.querySelector('[data-git-link]');
-const demoLink = this.querySelector('[data-demo-link]');
+    const gitLink = this.querySelector("[data-git-link]");
+    const demoLink = this.querySelector("[data-demo-link]");
 
-if (gitLink) {
-  modalGitLink.href = gitLink.href;
-  modalGitLink.style.display = 'inline-flex';
-} else {
-  modalGitLink.style.display = 'none';
-}
+    if (gitLink) {
+      modalGitLink.href = gitLink.href;
+      modalGitLink.style.display = "inline-flex";
+    } else {
+      modalGitLink.style.display = "none";
+    }
 
-if (demoLink) {
-  modalDemoLink.href = demoLink.href;
-  modalDemoLink.style.display = 'inline-flex';
-} else {
-  modalDemoLink.style.display = 'none';
-}
-
+    if (demoLink) {
+      modalDemoLink.href = demoLink.href;
+      modalDemoLink.style.display = "inline-flex";
+    } else {
+      modalDemoLink.style.display = "none";
+    }
 
     testimonialsModalFunc();
   });
@@ -187,7 +181,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 async function fetchMediumFeed() {
   const proxy = "https://api.allorigins.win/get?url=";
-  const feedUrl = "https://medium.com/@sr.harishsrinivas/feed";
+  const feedUrl = "https://medium.com/feed/@sr.harishsrinivas";
   const finalUrl = proxy + encodeURIComponent(feedUrl);
 
   try {
@@ -200,15 +194,16 @@ async function fetchMediumFeed() {
     const items = xml.querySelectorAll("item");
 
     const blogList = document.getElementById("blog-list");
+    const blogNavItem = document.getElementById("blog-nav-item");
     blogList.innerHTML = "";
 
-    
     if (!items || items.length === 0) {
       hasMediumPosts = false;
       return;
     }
 
     hasMediumPosts = true;
+    if (blogNavItem) blogNavItem.style.display = "list-item";
 
     items.forEach((item, index) => {
       if (index >= 6) return;
@@ -283,4 +278,3 @@ async function fetchMediumFeed() {
     console.error("❌ Error fetching or parsing feed:", err);
   }
 }
-
