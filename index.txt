@@ -39,21 +39,21 @@ I create scalable, intuitive apps and websites that bring ideas to life with cre
 
 What i'm doing
 
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
+android
+Mobile App Development
+Building cross-platform mobile apps using Flutter & Supabase with real-time data, push notifications, and modern UI/UX.
 
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
+web
+Full Stack Development
+End-to-end web development with React, Node.js, Express, and PostgreSQL. REST APIs and scalable app architecture.
 
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
+design
+UI/UX & Prototyping
+Designing intuitive interfaces and flows using Figma. Rapid prototyping with Tailwind CSS for responsive web apps.
 
-alt = camera icon
-Photography
-I make high-quality photos of any category at a professional level.
+cloud
+Cloud & Dev Tools
+Working with Supabase, Firebase, Git, Play Console, and Postman to deliver, deploy, and debug apps efficiently.
 
 
 # resume
