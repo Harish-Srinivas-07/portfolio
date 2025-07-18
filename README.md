@@ -1,7 +1,24 @@
-# 💼 Harish Srinivas SR - Portfolio Website
+# Harish Srinivas SR — Personal Portfolio
 
-Welcome to my personal portfolio website! This site showcases my projects, skills, and professional background. It's a hub where you can explore my work across web, mobile, and full-stack development.
+> ✨ Explore my full portfolio and blog posts on [harishsrinivas.netlify.app](https://harishsrinivas.netlify.app)
 
-## 🌐 Live Website
+<img width="2134" height="1176" alt="image" src="https://github.com/user-attachments/assets/3245cebd-f88b-42d9-a4ed-d8bce453c755" />
 
-🔗 [harishsrinivas.netlify.app](https://harishsrinivas.netlify.app)
+
+
+## 🧾 Sections
+
+- `About`  
+- `Resume`  
+- `Portfolio`  
+- `Blog` → [Read on Medium](http://medium.com/@sr.harishsrinivas)  
+- `Contact` → [Connect on LinkedIn](https://www.linkedin.com/in/harishsrinivas-sr/)  
+
+
+## 📌 About Me
+
+I create scalable, intuitive apps 🧩 and websites 🌐 that bring ideas to life with creativity 🎨 and precision.  
+My focus is on delivering seamless user experiences 🚀 that engage audiences and elevate brands.  
+Passionate about turning complex problems 🤯 into elegant, impactful solutions ✅.
+
+👉 Visit: [harishsrinivas.netlify.app](https://harishsrinivas.netlify.app)
