@@ -11,6 +11,9 @@ Show Contacts
 Email
 sr.harishsrinivas@gmail.com
 
+linkedin
+https://www.linkedin.com/in/harishsrinivas-sr/
+
 Phone
 +91 8939195387
 
@@ -99,9 +102,12 @@ Web design
 Applications
 Web development
 
+#latest projects
+1. Hivefy: Hivefy is a FOSS, Spotify inpired, ad-free, and offline-ready music app built with Flutter using the unofficial JioSaavn API. github link: https://github.com/Harish-Srinivas-07/hivefy & sourceforge link : https://sourceforge.net/projects/hivefy/
 
 # Blog
 http://medium.com/@sr.harishsrinivas
+https://www.linkedin.com/in/harishsrinivas-sr/
 
 # contact
 
