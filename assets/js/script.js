@@ -55,6 +55,7 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
     if (gitLink) {
       modalGitLink.href = gitLink.href;
+      modalGitLink.innerHTML = gitLink.innerHTML;
       modalGitLink.style.display = "inline-flex";
     } else {
       modalGitLink.style.display = "none";
@@ -62,6 +63,7 @@ for (let i = 0; i < testimonialsItem.length; i++) {
 
     if (demoLink) {
       modalDemoLink.href = demoLink.href;
+      modalDemoLink.innerHTML = demoLink.innerHTML;
       modalDemoLink.style.display = "inline-flex";
     } else {
       modalDemoLink.style.display = "none";
