@@ -1,0 +1,59 @@
+# Harish Srinivas SR
+
+> Software developer specializing in Flutter, Supabase, React and full-stack
+> development, based in Chennai, India. Currently a Software Engineer at Sun
+> Teknolozy, building the mobile version of an industrial monitoring app.
+
+Harish Srinivas SR builds mobile apps and web platforms with Flutter, Supabase,
+React, Node.js and PostgreSQL. This file is a machine-readable summary of the
+portfolio at https://harishsrinivas.netlify.app/ for LLMs and AI agents.
+
+## Identity
+
+- Name: Harish Srinivas SR
+- Title: Software Developer
+- Location: Chennai, Tamil Nadu, India
+- Email: sr.harishsrinivas@gmail.com
+- Phone: +91 8939195387
+- Website: https://harishsrinivas.netlify.app/
+- GitHub: https://github.com/Harish-Srinivas-07
+- LinkedIn: https://linkedin.com/in/harishsrinivas-sr
+- Instagram: https://instagram.com/being_exception
+- Medium: https://medium.com/@sr.harishsrinivas
+
+## Experience
+
+- [Software Engineer @ Sun Teknolozy](https://play.google.com/store/apps/details?id=com.sunteknolozy.mia&hl=en_IN): 2024 — Present. Core member of the MIA team; built the mobile version of a cross-platform industrial monitoring app using Flutter & Supabase — real-time data tracking, interactive graphs, reporting, push notifications. Deployed to the Play Store after security audits.
+
+## Projects
+
+- [HiveCampus](http://campus.thehiveminds.in/): Mobile-first SaaS unifying school communication — attendance, homework, report cards, leave management & parent engagement. Status: Active. Play Store: https://play.google.com/store/apps/details?id=com.thehiveminds.hivecampus
+- [Doinu](https://www.doinu.org/): Open-source, ad-free music streaming platform for independent artists & bands. Flutter app + Next.js admin panel. Status: Live. Play Store: https://play.google.com/store/apps/details?id=com.hiveminds.doinu · App Store: https://apps.apple.com/us/app/doinu-discover-fresh-music/id6760999984
+- [HR Attendance](https://github.com/Harish-Srinivas-07/hr_attendance): Full-fledged Flutter attendance & leave management app, backed by Supabase for auth and real-time data. Status: Open Source.
+- [goStream](https://github.com/Harish-Srinivas-07/goStream): Ad-free Flutter movie streaming app via IMDb & vidsrc — no login, no redirects. Status: Active.
+- [SAEC Spotbus](https://github.com/Harish-Srinivas-07/Saec-Spotbus): Flutter campus transport tracker for S.A Engineering College — real-time bus tracking via Google Maps & Firebase. Status: Archived.
+- [Nike Showcase](https://nike-mine.vercel.app): React + Vite + Tailwind Nike landing page clone.
+- [PrimeStream](https://harish-srinivas-07.github.io/PrimeStream): Azure AD B2C auth movie streaming web app.
+- [PrimeMusic](https://harish-srinivas-07.github.io/PrimeMusic): Saavn API powered music streaming web app.
+- [Internshala LandingPage](https://internshalaconnect.netlify.app): React + Vite + Tailwind Internshala clone.
+- [Foody Mart](https://saecfoodweby.netlify.app): Food ordering website.
+
+## Skills
+
+Flutter, Firebase, Figma, React, Tailwind CSS, Node.js, REST API, Express, SQL,
+PostgreSQL, Supabase, Git, Postman, Play Console.
+
+## Education
+
+- S.A Engineering College, Poonamallee — B.E Computer Science Engineering, 2021–2024, CGPA 9.25
+- New Century Mat Hr Sec School, Chennai — HSC, State Board, 2019–2020, 74.4%
+- New Century Mat Hr Sec School, Chennai — SSLC, State Board, 2017–2018, 94.4%
+
+## Certifications
+
+- Project Development in JavaScript — Udemy
+- Python & Problem Solving Basics — HackerRank
+- Foundations of UX Design — Google
+- Technical Support Fundamentals — Google
+- Cyber Threats & Attack Vectors — Coursera
+- Python Intermediate Crash Course — Coursera

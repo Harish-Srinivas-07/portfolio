@@ -1,19 +1,19 @@
 # Harish Srinivas SR — Personal Portfolio
 
-> ✨ Explore my full portfolio and blog posts on [harishsrinivas.netlify.app](https://harishsrinivas.netlify.app)
+> ✨ Explore my full portfolio on [harishsrinivas.netlify.app](https://harishsrinivas.netlify.app)
 
-<img width="2134" height="1176" alt="image" src="https://github.com/user-attachments/assets/3245cebd-f88b-42d9-a4ed-d8bce453c755" />
-
-
+A minimal, single-page, terminal-styled portfolio — tech stack, experience, projects,
+education, certifications and contact info in one scroll.
 
 ## 🧾 Sections
 
-- `About`  
-- `Resume`  
-- `Portfolio`  
-- `Blog` → [Read on Medium](http://medium.com/@sr.harishsrinivas)  
-- `Contact` → [Connect on LinkedIn](https://www.linkedin.com/in/harishsrinivas-sr/)  
-
+- `Tech Stack`
+- `Experience`
+- `Projects`
+- `Education`
+- `Certifications`
+- `Find me on` → [GitHub](https://github.com/Harish-Srinivas-07) · [LinkedIn](https://www.linkedin.com/in/harishsrinivas-sr/)
+- `Get in touch` → [sr.harishsrinivas@gmail.com](mailto:sr.harishsrinivas@gmail.com)
 
 ## 📌 About Me
 
