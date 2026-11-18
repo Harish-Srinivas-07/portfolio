@@ -45,12 +45,18 @@ Link: https://play.google.com/store/apps/details?id=com.sunteknolozy.mia&hl=en_I
    - App Store: apps.apple.com/us/app/doinu-discover-fresh-music/id6760999984
    - Icon: assets/images/doinu.png
 
-3. **HR Attendance App** — Status: Open Source
+3. **Hivefy** — Status: Open Source
+   Free, open-source YouTube Music client for Android and iOS, built with Flutter. Includes
+   Spotify-inspired design, background playback, synced lyrics, and offline listening.
+   - Repo: github.com/Harish-Srinivas-07/hivefy
+   - Icon: assets/images/hivefy.png
+
+4. **HR Attendance App** — Status: Open Source
    Full-fledged Flutter attendance & leave management app w/ Supabase backend.
    Repo: github.com/Harish-Srinivas-07/hr_attendance
    Icon: assets/images/hr_attendance.png
 
-4. **goStream** — Status: Active
+5. **goStream** — Status: Active
    Ad-free Flutter movie streaming app via IMDb & vidsrc. No login, no redirects, Material
    You theming, offline favorites/history.
    Repo: github.com/Harish-Srinivas-07/goStream
