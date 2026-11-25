@@ -51,18 +51,24 @@ Link: https://play.google.com/store/apps/details?id=com.sunteknolozy.mia&hl=en_I
    - Repo: github.com/Harish-Srinivas-07/hivefy
    - Icon: assets/images/hivefy.png
 
-4. **HR Attendance App** — Status: Open Source
+4. **HiveTube** — Status: Open Source
+   Privacy-focused YouTube and Shorts client for Android, built with Flutter. Includes
+   background playback, picture-in-picture, content filtering, and offline downloads.
+   - Repo: github.com/Harish-Srinivas-07/hivetube
+   - Icon: assets/images/hivetube.png
+
+5. **HR Attendance App** — Status: Open Source
    Full-fledged Flutter attendance & leave management app w/ Supabase backend.
    Repo: github.com/Harish-Srinivas-07/hr_attendance
    Icon: assets/images/hr_attendance.png
 
-5. **goStream** — Status: Active
+6. **goStream** — Status: Active
    Ad-free Flutter movie streaming app via IMDb & vidsrc. No login, no redirects, Material
    You theming, offline favorites/history.
    Repo: github.com/Harish-Srinivas-07/goStream
    Icon: assets/images/go_stream.png
 
-5. **SAEC Spotbus** — Status: Archived
+7. **SAEC Spotbus** — Status: Archived
    Flutter campus transport tracker for S.A Engineering College (Google Maps API + Firebase).
    Repo: github.com/Harish-Srinivas-07/Saec-Spotbus
    Icon: assets/images/saec_bus.png
